@@ -1,0 +1,69 @@
+#servicios{
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    color: white;
+    h2{
+        font-size: 4em;
+        color: orangered;
+    }
+    .container{
+padding: 150px 12px;
+    }
+    p{
+        color: rgb(255, 245, 245);
+        display: none;
+    }
+    .cartas{
+        
+        
+        .cards{
+            padding: 30px;
+            margin: 10px;
+            border-radius: 20px;
+            background-position: center center;
+            background-size: cover;
+            inset: 0;
+            object-fit: cover;
+            opacity: .7;
+            transition: transform 2s;
+            &:hover{ transform:  scale(1.15);}
+        }
+        .cards:first-child{
+            background-image:linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+            )
+            
+            ,url(../img/bebidas.jpg);
+            transition: transform 2s;
+            &:hover{ transform:  scale(1.15);}
+        }
+        .cards:nth-child(2){
+            background-image:linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+            )
+            
+            ,url(../img/merca.jpg);
+        }
+        .cards:nth-child(3){
+            background-image:linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+            )
+            
+            ,url(../img/PANA/14.jpg);
+        }
+}
+}
+.inferior{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+}
