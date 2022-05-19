@@ -4,6 +4,7 @@
 }
 header{
     background-color: black;
+    img{border-radius: 50px;}
    .logo{
        margin: 0;
        padding: 25px 30px;
@@ -14,22 +15,41 @@ header{
        display: flex;
        flex-direction: column;
        align-items: center;
-   }
-   nav{
-       display: flex;
-       flex-direction: column;
-       text-align: center;
-       padding-bottom: 25px;
-   }
-   a{
-       padding: 5px 12px;
-       text-decoration: none;
-       font-weight: bold;
-       color: white;
-       &:hover{
-           color: orangered;
+       nav{
+           display: grid;
+           place-items: center;
+           ul{
+               display: flex;
+               padding: 10px;
+               li{
+                   list-style: none;
+                   padding: 5px;
+                   position: relative;
+                   margin: 5px;
+                   &::before{
+                       content: "";
+                       position: absolute;
+                       width: 100%;
+                       height: .3rem;
+                       background-color: orangered;
+                       left: 0;
+                       bottom: 0;
+                       transform: scale(0,1);
+                       transition: .7s;
+                   }
+                   &:hover::before{
+                    transform: scale(1,1);
+                   }
+                   a{
+                       text-decoration: none;
+                       color: white;
+                       font-weight: 600;
+                   }
+               }
+           }
        }
    }
+   
 }
 #hero{
     display:flex ;
@@ -45,10 +65,12 @@ header{
         rgba(0,0,0,0.5)
     )
     
-    ,url(../img/descargaCC.jpg);
-    background-size: cover;
+    ,url(../img/ñññ.webp);
     background-position: center center;
     background-repeat: no-repeat;
+    
+
+   
 
 }
 #info{
@@ -62,4 +84,7 @@ header{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     
+}
+#servicios{
+
 }

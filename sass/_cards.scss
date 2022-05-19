@@ -7,26 +7,27 @@
         color: orangered;
     }
     .container{
-padding: 150px 12px;
+     padding: 100px 12px;
     }
-    p{
-        color: rgb(255, 245, 245);
-        display: none;
+    li{
+      text-decoration: none;
+      display: grid;
+      place-items: center;
+      padding: 5px;
     }
     .cartas{
         
         
         .cards{
-            padding: 30px;
+            padding: 40px;
             margin: 10px;
             border-radius: 20px;
             background-position: center center;
             background-size: cover;
             inset: 0;
             object-fit: cover;
-            opacity: .7;
-            transition: transform 2s;
-            &:hover{ transform:  scale(1.15);}
+            opacity: .8;
+           
         }
         .cards:first-child{
             background-image:linear-gradient(
@@ -36,8 +37,7 @@ padding: 150px 12px;
             )
             
             ,url(../img/bebidas.jpg);
-            transition: transform 2s;
-            &:hover{ transform:  scale(1.15);}
+           
         }
         .cards:nth-child(2){
             background-image:linear-gradient(
@@ -55,7 +55,7 @@ padding: 150px 12px;
                 rgba(0,0,0,0.5)
             )
             
-            ,url(../img/PANA/14.jpg);
+            ,url(../img/paana.jpeg);
         }
 }
 }
@@ -66,4 +66,12 @@ padding: 150px 12px;
     text-align: center;
     flex-direction: column;
     height: 40vh;
+}
+.button-cards{
+    background-color: orangered;
+     
+     &:hover{
+        
+         background-color: orangered;
+     }
 }

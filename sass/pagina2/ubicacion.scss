@@ -1,0 +1,25 @@
+.ubi{
+    margin: 0;
+    text-align: center;
+    color: rgba(247, 77, 10, 0.897);
+    b{color: rgb(255, 0, 0);}
+}
+.ubi__PRIN{
+    background-color: black;
+    p{color: rgb(247, 245, 244);
+    text-align: center;}
+    ul{
+        background-color: rgb(228, 69, 6);
+        color:rgba(255, 72, 0, 0.897);
+        li{
+            display: inline;
+            padding:5px;
+            color: black;
+        }
+    }
+}
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

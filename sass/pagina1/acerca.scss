@@ -1,16 +1,24 @@
+.acerca{
+background-color: black;    
 
-.container-img{
-    background-color: black;
-    padding: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(auto-fit,
-    minmax(200px, 1fr));
-}
-.item img{
-width: 100%;
-border: 2px solid $cprincipal;
-
+    h2{
+       text-align: center;
+       color: orangered;
+       margin: 0;
+    }
+    p{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(250, 136, 94);
+    }
+    h3{
+        text-align: center;
+        color: orangered;
+    }
+    img{
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
