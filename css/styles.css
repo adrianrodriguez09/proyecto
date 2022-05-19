@@ -135,6 +135,24 @@ header {
   text-align: center;
   flex-direction: column;
   height: 40vh; }
+  .inferior .links_wats {
+    color: rgba(4, 163, 39, 0.959);
+    text-decoration: none;
+    border: solid 2px #69c91b;
+    border-radius: 5px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    .inferior .links_wats:hover {
+      color: #fff8f8; }
+  .inferior .links_face {
+    color: rgba(55, 31, 194, 0.959);
+    text-decoration: none;
+    border: solid 2px #1f1bdf;
+    border-radius: 5px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    .inferior .links_face:hover {
+      color: #fff8f8; }
 
 .button-cards {
   background-color: orangered; }
@@ -150,6 +168,10 @@ footer .container {
 footer p {
   margin: 0;
   color: #646464; }
+
+footer .iconos {
+  color: #2925f0;
+  padding: 2px; }
 
 /* header */
 @media (min-width: 720px) {

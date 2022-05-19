@@ -66,6 +66,28 @@
     text-align: center;
     flex-direction: column;
     height: 40vh;
+    .links_wats{
+        color: rgba(4, 163, 39, 0.959);
+        text-decoration: none;
+        border: solid 2px rgb(105, 201, 27);
+        border-radius: 5px;
+        background-color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        &:hover{
+            color: rgb(255, 248, 248);
+        }
+    }
+    .links_face{
+        color: rgba(55, 31, 194, 0.959);
+        text-decoration: none;
+        border: solid 2px rgb(31, 27, 223);
+        border-radius: 5px;
+        background-color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        &:hover{
+            color: rgb(255, 248, 248);
+        }
+    }
 }
 .button-cards{
     background-color: orangered;
