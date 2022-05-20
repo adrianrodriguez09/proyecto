@@ -86,7 +86,7 @@ header {
   flex-direction: column;
   height: 40vh;
   color: #f1730b;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/ñññ.webp);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mobile.jpg);
   background-position: center center;
   background-repeat: no-repeat; }
 
@@ -184,6 +184,17 @@ footer .iconos {
       flex-direction: row;
       display: inline;
       padding-right: 40px; }
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+    color: #f1730b;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/73680.jpg);
+    background-position: center center;
+    background-repeat: no-repeat; }
   #info .container {
     display: flex;
     justify-content: space-between; }
@@ -207,7 +218,7 @@ footer .iconos {
     display: flex;
     padding: 15px; }
   .images {
-    background-color: black; }
+    background-color: orangered; }
   .acerca h2 {
     text-align: center; }
   .acerca p {
@@ -247,7 +258,23 @@ footer .iconos {
       background-color: orangered;
       transition: transform 1s; }
       .contenedor .productos .producto:hover {
-        transform: scale(1.1); } }
+        transform: scale(1.1); }
+  .carrusel {
+    width: 1080px;
+    height: 720px;
+    background-color: black;
+    margin: 50px auto;
+    background-position: center center;
+    animation: trabajos 20s infinite; }
+  @keyframes trabajos {
+    25% {
+      background: url(../sass/img2/1.jpg); }
+    50% {
+      background: url(../sass/img2/ijili.jpg); }
+    75% {
+      background: url(../sass/img2/plotom.jpg); }
+    100% {
+      background: url(../sass/img2/ojoli.jpg); } } }
 
 .acerca {
   background-color: black; }
@@ -281,17 +308,23 @@ footer .iconos {
     color: #f7f5f4;
     text-align: center; }
   .ubi__PRIN ul {
+    margin: 0;
     background-color: #e44506;
     color: rgba(255, 72, 0, 0.897); }
     .ubi__PRIN ul li {
       display: inline;
       padding: 5px;
       color: black; }
+      .ubi__PRIN ul li b {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black; }
 
 .ubicacion {
+  margin: 0;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-color: black; }
 
 .tiendah1 {
   text-align: center; }

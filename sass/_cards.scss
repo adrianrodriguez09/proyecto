@@ -4,7 +4,7 @@
     color: white;
     h2{
         font-size: 4em;
-        color: orangered;
+        color: map-get($colores, primario );
     }
     .container{
      padding: 100px 12px;
